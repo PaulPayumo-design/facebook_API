@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/posts")
-@CrossOrigin(origins = "https://facebook-ui-6tp3.onrender.com") // Allow React frontend
+//@CrossOrigin(origins = "https://facebook-ui-6tp3.onrender.com") // Allow React frontend
 public class PostController {
 
     private final PostRepository repository;
